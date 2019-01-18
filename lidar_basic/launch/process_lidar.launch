@@ -1,0 +1,11 @@
+<launch>
+
+<!-- The rotate_bot node -->
+ <node name="rotate_bot" type="rotate_bot" pkg="lidar_basic" output="screen">
+ </node>
+
+<!-- The rotate_bot node -->
+ <node name="process_lidar" type="process_lidar" pkg="lidar_basic" output="screen">
+ </node>
+
+</launch>
